@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Index</title>
-    </head>
-    <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-   document.addEventListener('keydown', function(event) {
-    if(event.keyCode == 37) {
-        alert('Left was pressed');
-    }
-    else if(event.keyCode == 39) {
-        alert('Right was pressed');
-    }
-});
-    
-    
-    
-    </body>
+<head>
+<!-- Load the Paper.js library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.2/paper-full.min.js"></script>
+<canvas id="JamesDean" width="1000" height="1000"></canvas>
+<script src="script.js" type="text/paperscript" canvas="JamesDean">
+</script>
+</head>
+
+<body>
+	
+
+</body>
 </html>
